@@ -46,6 +46,7 @@
 		F480D3782B5FAD8700F3FE77 /* Home2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home2.swift; sourceTree = "<group>"; };
 		F480D37A2B5FAD9100F3FE77 /* Home3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home3.swift; sourceTree = "<group>"; };
 		F480D37E2B5FAE7E00F3FE77 /* Profile1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile1.swift; sourceTree = "<group>"; };
+		F4B57ECC2B60F9C400024962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +79,7 @@
 		F480D34B2B5F8ADB00F3FE77 /* BPS-navigationStack */ = {
 			isa = PBXGroup;
 			children = (
+				F4B57ECC2B60F9C400024962 /* Info.plist */,
 				F480D34C2B5F8ADB00F3FE77 /* BPS_navigationStackApp.swift */,
 				F480D34E2B5F8ADB00F3FE77 /* ContentView.swift */,
 				F480D35B2B5F8C0200F3FE77 /* SplashView.swift */,
@@ -366,6 +368,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BPS-navigationStack/Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -404,6 +407,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BPS-navigationStack/Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

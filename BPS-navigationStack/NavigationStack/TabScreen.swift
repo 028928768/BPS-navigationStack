@@ -8,24 +8,20 @@
 import SwiftUI
 
 struct TabScreen: View {
-    //enum for Tabs, add other tabs if needed
-    enum Tab {
-      case screenA, screenB
-     }
-    @State private var selectedTab: Tab = .screenA
+    @State private var selectedTab: Tab = .home
     
     var body: some View {
         TabView(selection: $selectedTab) {
             HomeScreen()
                 .tabItem {
                     Label("Home", systemImage: "house.circle.fill")
-                }.tag(Tab.screenA)
+                }.tag(Tab.home)
             
 
             ProfileScreen()
                 .tabItem {
                     Label("Profile", systemImage: "person.circle.fill")
-                }.tag(Tab.screenB)
+                }.tag(Tab.profile)
         } //: TabView
     }
 }

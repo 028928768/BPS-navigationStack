@@ -16,6 +16,13 @@ struct BPS_navigationStackApp: App {
             SplashView()
                 .environmentObject(authentication)
                 .environmentObject(navigation)
+                .onOpenURL { url in
+                    if navigation.checkDeepLink(url: url) {
+                        print("got here from Deep link")
+                    }else {
+                        print("no deeplink found")
+                    }
+                }
         }
     }
 }
