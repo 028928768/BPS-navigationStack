@@ -8,17 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var navigation: NavigationManager
+    @EnvironmentObject var auth: AuthenticationManager
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            switch auth.state {
+            case .signedIn:
+                LandingView()
+            case .signedOut:
+                VStack {
+                    Text("signout-View")
+                    Button("Log-in") {
+                        withAnimation {
+                            auth.signin()
+                        }
+                    }
+                }
+            }
+          
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentView()
+        .environmentObject(NavigationManager())
+        .environmentObject(AuthenticationManager())
 }

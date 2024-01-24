@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct BPS_navigationStackApp: App {
+    @StateObject private var authentication: AuthenticationManager = .init()
+    @StateObject private var navigation: NavigationManager = .init()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashView()
+                .environmentObject(authentication)
+                .environmentObject(navigation)
         }
     }
 }

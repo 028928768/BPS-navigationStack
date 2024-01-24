@@ -11,6 +11,19 @@
 		F480D34F2B5F8ADB00F3FE77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F480D34E2B5F8ADB00F3FE77 /* ContentView.swift */; };
 		F480D3512B5F8ADC00F3FE77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F480D3502B5F8ADC00F3FE77 /* Assets.xcassets */; };
 		F480D3552B5F8ADC00F3FE77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F480D3542B5F8ADC00F3FE77 /* Preview Assets.xcassets */; };
+		F480D35C2B5F8C0200F3FE77 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F480D35B2B5F8C0200F3FE77 /* SplashView.swift */; };
+		F480D35E2B5F8ED000F3FE77 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F480D35D2B5F8ED000F3FE77 /* LandingView.swift */; };
+		F480D3612B5F936000F3FE77 /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F480D3602B5F936000F3FE77 /* NavigationManager.swift */; };
+		F480D3632B5F940500F3FE77 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = F480D3622B5F940500F3FE77 /* Authentication.swift */; };
+		F480D3682B5F9E7000F3FE77 /* RedScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F480D3672B5F9E7000F3FE77 /* RedScreen.swift */; };
+		F480D36A2B5FA0A400F3FE77 /* BlueScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F480D3692B5FA0A400F3FE77 /* BlueScreen.swift */; };
+		F480D36D2B5FA36500F3FE77 /* TabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F480D36C2B5FA36500F3FE77 /* TabScreen.swift */; };
+		F480D36F2B5FA3E300F3FE77 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F480D36E2B5FA3E300F3FE77 /* HomeScreen.swift */; };
+		F480D3712B5FA3E900F3FE77 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F480D3702B5FA3E900F3FE77 /* ProfileScreen.swift */; };
+		F480D3772B5FAD7D00F3FE77 /* Home1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F480D3762B5FAD7D00F3FE77 /* Home1.swift */; };
+		F480D3792B5FAD8700F3FE77 /* Home2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F480D3782B5FAD8700F3FE77 /* Home2.swift */; };
+		F480D37B2B5FAD9100F3FE77 /* Home3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F480D37A2B5FAD9100F3FE77 /* Home3.swift */; };
+		F480D37F2B5FAE7E00F3FE77 /* Profile1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F480D37E2B5FAE7E00F3FE77 /* Profile1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +33,19 @@
 		F480D3502B5F8ADC00F3FE77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F480D3522B5F8ADC00F3FE77 /* BPS_navigationStack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BPS_navigationStack.entitlements; sourceTree = "<group>"; };
 		F480D3542B5F8ADC00F3FE77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F480D35B2B5F8C0200F3FE77 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		F480D35D2B5F8ED000F3FE77 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		F480D3602B5F936000F3FE77 /* NavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationManager.swift; sourceTree = "<group>"; };
+		F480D3622B5F940500F3FE77 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		F480D3672B5F9E7000F3FE77 /* RedScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedScreen.swift; sourceTree = "<group>"; };
+		F480D3692B5FA0A400F3FE77 /* BlueScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueScreen.swift; sourceTree = "<group>"; };
+		F480D36C2B5FA36500F3FE77 /* TabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreen.swift; sourceTree = "<group>"; };
+		F480D36E2B5FA3E300F3FE77 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		F480D3702B5FA3E900F3FE77 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		F480D3762B5FAD7D00F3FE77 /* Home1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home1.swift; sourceTree = "<group>"; };
+		F480D3782B5FAD8700F3FE77 /* Home2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home2.swift; sourceTree = "<group>"; };
+		F480D37A2B5FAD9100F3FE77 /* Home3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home3.swift; sourceTree = "<group>"; };
+		F480D37E2B5FAE7E00F3FE77 /* Profile1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,10 @@
 			children = (
 				F480D34C2B5F8ADB00F3FE77 /* BPS_navigationStackApp.swift */,
 				F480D34E2B5F8ADB00F3FE77 /* ContentView.swift */,
+				F480D35B2B5F8C0200F3FE77 /* SplashView.swift */,
+				F480D3642B5F949200F3FE77 /* Router */,
+				F480D35F2B5F918300F3FE77 /* Manual-navigation */,
+				F480D36B2B5FA31C00F3FE77 /* NavigationStack */,
 				F480D3502B5F8ADC00F3FE77 /* Assets.xcassets */,
 				F480D3522B5F8ADC00F3FE77 /* BPS_navigationStack.entitlements */,
 				F480D3532B5F8ADC00F3FE77 /* Preview Content */,
@@ -67,6 +97,55 @@
 				F480D3542B5F8ADC00F3FE77 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F480D35F2B5F918300F3FE77 /* Manual-navigation */ = {
+			isa = PBXGroup;
+			children = (
+				F480D35D2B5F8ED000F3FE77 /* LandingView.swift */,
+				F480D3672B5F9E7000F3FE77 /* RedScreen.swift */,
+				F480D3692B5FA0A400F3FE77 /* BlueScreen.swift */,
+			);
+			path = "Manual-navigation";
+			sourceTree = "<group>";
+		};
+		F480D3642B5F949200F3FE77 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F480D3602B5F936000F3FE77 /* NavigationManager.swift */,
+				F480D3622B5F940500F3FE77 /* Authentication.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F480D36B2B5FA31C00F3FE77 /* NavigationStack */ = {
+			isa = PBXGroup;
+			children = (
+				F480D36C2B5FA36500F3FE77 /* TabScreen.swift */,
+				F480D37C2B5FAD9400F3FE77 /* Home */,
+				F480D37D2B5FAE6B00F3FE77 /* Profile */,
+			);
+			path = NavigationStack;
+			sourceTree = "<group>";
+		};
+		F480D37C2B5FAD9400F3FE77 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F480D36E2B5FA3E300F3FE77 /* HomeScreen.swift */,
+				F480D3762B5FAD7D00F3FE77 /* Home1.swift */,
+				F480D3782B5FAD8700F3FE77 /* Home2.swift */,
+				F480D37A2B5FAD9100F3FE77 /* Home3.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F480D37D2B5FAE6B00F3FE77 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F480D3702B5FA3E900F3FE77 /* ProfileScreen.swift */,
+				F480D37E2B5FAE7E00F3FE77 /* Profile1.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +218,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F480D35E2B5F8ED000F3FE77 /* LandingView.swift in Sources */,
 				F480D34F2B5F8ADB00F3FE77 /* ContentView.swift in Sources */,
+				F480D37B2B5FAD9100F3FE77 /* Home3.swift in Sources */,
+				F480D3792B5FAD8700F3FE77 /* Home2.swift in Sources */,
 				F480D34D2B5F8ADB00F3FE77 /* BPS_navigationStackApp.swift in Sources */,
+				F480D36F2B5FA3E300F3FE77 /* HomeScreen.swift in Sources */,
+				F480D3712B5FA3E900F3FE77 /* ProfileScreen.swift in Sources */,
+				F480D36A2B5FA0A400F3FE77 /* BlueScreen.swift in Sources */,
+				F480D3682B5F9E7000F3FE77 /* RedScreen.swift in Sources */,
+				F480D36D2B5FA36500F3FE77 /* TabScreen.swift in Sources */,
+				F480D37F2B5FAE7E00F3FE77 /* Profile1.swift in Sources */,
+				F480D3772B5FAD7D00F3FE77 /* Home1.swift in Sources */,
+				F480D35C2B5F8C0200F3FE77 /* SplashView.swift in Sources */,
+				F480D3612B5F936000F3FE77 /* NavigationManager.swift in Sources */,
+				F480D3632B5F940500F3FE77 /* Authentication.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
